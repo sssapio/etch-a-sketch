@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.container {
+  border: 5px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 960px;
+  height: 960px;
+}
+.pixels {
+  background-color: aquamarine;
+  transition: background-color 0.3s ease;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+.color1:hover {
+  background-color: #4169e1;
+}
+.color2:hover {
+  background-color: #ff6f61;
+}
+.color3:hover {
+  background-color: #333333;
+}
+.color4:hover {
+  background-color: #f5f5f5;
+}
